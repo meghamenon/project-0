@@ -19,8 +19,8 @@ Everyone will get a chance to **be creative**, and work through some really **to
 
 ### Timeline
 
-* **Assigned:** ADD START DATE HERE
-* **Due:** ADD DUE DATE HERE at 9:00AM
+* **Assigned:** Wednesday, 9:00 AM
+* **Due:** Thursday, 9:00AM (aka tomorrow)
 
 
 ---
@@ -45,22 +45,30 @@ Your app must:
 * **Include logic for winning** & **visually display which player won**
 * **Include separate HTML, CSS, and JavaScript files**
 * Use **native Javascript or jQuery** for **DOM manipulation**
-* Be **deployed publicly online**, where the rest of the world can access it (using a github pages project page or bitballoon)
 * Use **semantic markup** for HTML and CSS (adhere to best practices)
 * Include **custom styling** to convey the state of the game visually (and differentiate your project from any CSS libraries used)
 * Demonstrate attention to code quality with a **DRY (Don't Repeat Yourself)** codebase that is **"clean" (well-indented, appropriately commented, organized)** and **readable.** Actually ask somebody else in the class to read your code and see if they can understand it!
 
+#### Bonuses
+These are some ideas that could take your game "above and beyond." **Don't focus on them until you've hit the core requirements.**
+
+* Deploy your app **publicly online**, where the rest of the world can access it (using a github pages project page or bitballoon)
+* Add **movement through CSS** with hover effects, transitions, or keyframe animations.
+* Integrate **Object Oriented Programming** design patterns.
+* Keep track of **multiple game rounds** with a win counter.
+* Allow **customized players** (name, symbol, color, avatar, etc.).
+* Use [`localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to **keep track of game state**, even if the user refreshes the page.
+* Add **timers** like a countdown timer ("3, 2, 1, Go!"), track the winning time, or track the best time across multiple rounds.
+* **Play against a bot**.
+* Integrate with a **3rd party API**: flickr, youtube, spotify, giphy, etc.
 ---
 
 ### Deliverables
 
 
-* A **working game, built by you**, hosted somewhere on the internet.
+* A **working game, built by you**.
 * A **git repository hosted on Github**, with a link to your hosted game, and frequent commits dating back to the very beginning of the project
 * **A `readme.md` file** with a short description of the project, a list of which technologies you used for which parts of the app, an explanation of your approach (share some part of the code), and optionally a list of unsolved problems,  screenshots, etc.  See the [example readme](https://github.com/sf-wdi-labs/readme-example).
-* A **link to your hosted working game** in your game's Github repo.
-* A **link to your hosted working game** in the "my work" section of your personal website.
-* A
 
 ---
 
@@ -70,7 +78,7 @@ Your app must:
 * **Start simple** Build the simplest possible version of your game first, then add extra features or more complex rules.
 * **Use your Development Tools** (debugging, global variables, console.log, etc) to solve problems.
 * **Reference notes** in class & ask questions to the instructional team when you need to!
-* **Commit often!** Commit *at least* every time to complete a user story. Then you don’t have to be afraid to break something, as you can always go back in time to older version.
+* **Commit often!** Commit *at least* every time you complete a feature. Then you don’t have to be afraid to break something, as you can always go back in time to older version.
 * **Consult documentation resources** (MDN, jQuery, etc.) to better understand what you’ll be getting into.
 * **Don’t be afraid to write code that you know you will have to remove later.** For example, you are encouraged to create temporary elements (buttons, links, etc) that trigger game events if real data is not available. For example, if you’re trying to figure out how to change some text when the game is over but you haven’t solved the win/lose game logic, you can create a button to simulate it until then.
 
@@ -127,16 +135,7 @@ The player can challenge the computer, each taking turns trying to sink the othe
 
 ### Extra Challenge Ideas
 
-These are some ideas that could take your game "above and beyond." **Don't focus on them until you've hit the core requirements.**
 
-* Add **movement through CSS** with hover effects, transitions, or keyframe animations.
-* Integrate **Object Oriented Programming** design patterns.
-* Keep track of **multiple game rounds** with a win counter.
-* Allow **customized players** (name, symbol, color, avatar, etc.).
-* Use [`localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to **keep track of game state**, even if the user refreshes the page.
-* Add **timers** like a countdown timer ("3, 2, 1, Go!"), track the winning time, or track the best time across multiple rounds.
-* **Play against a bot**.
-* Integrate with a **3rd party API**: flickr, youtube, spotify, giphy, etc.
 
 ---
 
@@ -159,15 +158,12 @@ These are some ideas that could take your game "above and beyond." **Don't focus
 
 * __Code Quality__: Did you follow code style guidance and best practices covered in class, such as spacing, modularity, and semantic naming? Did you comment your code as your instructors have in class?
 
-* __Deployment__: Did you deploy your application to a public url using GitHub Pages?
-
 * __Total__: Your instructors score each category above on the following scale:
 
     Score | Expectations
     ----- | ------------
-    **0** | _Incomplete (not attempted)._
-    **1** | _Does not meet expectations. Work on this._
-    **2** | _Meets expectations, good job!_
-    **3** | _Exceeds expectations, wow!_
+    **0** | _Does not meet expectations. Work on this._
+    **1** | _Meets expectations, good job!_
+    **2** | _Exceeds expectations, wow!_
 
  You will receive a total score that is a composite of these scores. This will serve as a helpful overall gauge of whether you met the project goals, but __the more important scores are the individual ones for each category__ above, which can help you identify where to focus your efforts for the next project!
