@@ -49,6 +49,22 @@ Your app must:
 * Include **custom styling** to convey the state of the game visually (and differentiate your project from any CSS libraries used)
 * Demonstrate attention to code quality with a **DRY (Don't Repeat Yourself)** codebase that is **"clean" (well-indented, appropriately commented, organized)** and **readable.** Actually ask somebody else in the class to read your code and see if they can understand it!
 
+<details>
+    <summary>Hints</summary>
+    
+    
+* Listen for keyboard inputs:<br>
+
+```javascript
+document.addEventListener('keydown', (event) => {
+   console.log('keydown event occurred: ' + event.key);
+});
+```   
+   
+* Think about how to check if an HTML element is at the end of the page...
+  
+</details>
+
 #### Bonuses
 These are some ideas that could take your game "above and beyond." **Don't focus on them until you've hit the core requirements.**
 
