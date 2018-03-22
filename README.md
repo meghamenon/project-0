@@ -1,1 +1,1 @@
-First create two boxes that move forward or backwards when forward arrow is used. 
+A simple race game between gene and louise that decides a winner based on who reaches a point first 
