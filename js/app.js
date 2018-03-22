@@ -20,19 +20,19 @@ $(document).ready(function(){
 			
 	} else if (event.keyCode == 37){
 
-		$("#box2").animate({left: "+=12px"});
+		$("#box2").animate({left: "+=10px"});
 	}
 
 	console.log(typeof(boxParse2));
 
-	if(boxParse1 === 300){ 
+	if(boxParse1 == 300){ 
 
-		alert("Louise 1 wins");
+		alert("Louise wins!");
 		location.reload();
 
-	} else if (boxParse2 === 300) {
+	} else if (boxParse2 == 300) {
 
-		alert("Gene 2 wins");
+		alert("Gene wins!");
 		location.reload();
 
 	}
