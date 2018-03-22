@@ -27,12 +27,12 @@ $(document).ready(function(){
 
 	if(boxParse1 === 300){ 
 
-		alert("Box 1 wins");
+		alert("Louise 1 wins");
 		location.reload();
 
 	} else if (boxParse2 === 300) {
 
-		alert("Box 2 wins");
+		alert("Gene 2 wins");
 		location.reload();
 
 	}
