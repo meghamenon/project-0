@@ -5,11 +5,11 @@ h1{
 body{
 
 	background-color: black;
+	max-width: 500px;
 
 }
 
-
-#box {
+ #box1 {
 
 	position: relative;
 	background-color: white;
@@ -17,9 +17,11 @@ body{
 	height: 10px;
 	padding: 30px;
 	border: 1px;
+	margin-top: 60px;
+	margin-left: 10px;
 }
 
-#box1 {
+ #box2 {
 	position: relative;
 	background-color: white;
 	width: 5%;
@@ -27,5 +29,6 @@ body{
 	padding: 30px;
 	border: 1px;
 	top: 50px;
-
+	margin-left: 10px;
 }
+
