@@ -2,11 +2,6 @@ console.log("Hi");
 
 $(document).ready(function(){
 
-
-	//var stopFunction = function (){
-		//	$(".boxes").stop();
-		//}
-
 	document.addEventListener("keydown", function(event){
 
 
@@ -16,14 +11,12 @@ $(document).ready(function(){
 
 	if(event.keyCode == 39) {
 			
-		$("#box1").animate({left: "+=10px"});
+		$("#box1").animate({left: "+=20px"});
 			
 	} else if (event.keyCode == 37){
 
-		$("#box2").animate({left: "+=10px"});
+		$("#box2").animate({left: "+=20px"});
 	}
-
-	console.log(typeof(boxParse2));
 
 	if(boxParse1 == 300){ 
 
